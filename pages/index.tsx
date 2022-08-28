@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           className={styles.optionSelectBox}
           role="button"
           onClick={() =>
-            window.open(`https://rotybroi-rarity.vercel.app/`, `_blank`)
+            window.open(`https://opensea.io/collection/the-roty-broi`, `_blank`)
           }
         >
           {/* Buy The ROTY BROI */}
