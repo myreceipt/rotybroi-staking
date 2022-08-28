@@ -124,12 +124,12 @@ const Stake: NextPage = () => {
             Disconnect Wallet
           </button>
           <h2>Your Address</h2>
-
           <p className={styles.tokenValue}>{address}</p>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
           <h2>Your OiOi Tokens</h2>
+          <p className={styles.tokenValue}>{tokenContractAddress}</p>
 
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
