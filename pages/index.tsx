@@ -7,8 +7,12 @@ const Home: NextPage = () => {
   const router = useRouter();
 
   return (
-    
     <div className={styles.container}>
+      <Head>
+        <title>The ROTY BROI Staking</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       {/* Top Section */}
       <h1 className={styles.h1}>The ROTY BROI Staking</h1>
 
